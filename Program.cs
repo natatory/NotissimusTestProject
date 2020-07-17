@@ -16,7 +16,6 @@ namespace NotissimusTestProject
                 ProgramExitMsg();
                 return;
             }
-            else Console.WriteLine("Loading XML data successfully");
             var offers = XMLObjectModel.GetOffers(xmlCatalog);
             Console.WriteLine("\nEnter SQLServer data source connection string:");
             var connStr = Console.ReadLine();
